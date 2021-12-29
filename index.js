@@ -22,7 +22,7 @@ const client = new MongoClient(uri, {
 });
 
 client.connect((err) => {
-  //nailpalish start here
+  
 
   const Resort_Review = client.db("ResortReview").collection("review");
 
@@ -162,7 +162,7 @@ client.connect((err) => {
     });
   });
 
-  //lipstick backend finish
+  
 });
 
 app.listen(port, () => {
